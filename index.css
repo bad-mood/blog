@@ -1,19 +1,36 @@
-h1 {
-  left: 40%;
+h1{
+  left:40%;
   font-family: Noto Sans TC;
   font-weight: bold;
-  font-size: 5vw;
+  font-size:5vw;
 }
 
-h2 {
+h2{
   font-family: Noto Sans TC;
   font-weight: bold;
-  font-size: 3.5vw;
+  font-size:4.5vw;
 }
 
-h3 {
-  left: 40%;
+h3{
+  left:40%;
   font-family: Noto Sans TC;
   font-weight: bold;
-  font-size: 2vw;
+  font-size:3vw;
+}
+
+h4{
+  font-family: Noto Sans TC;
+  font-weight: bold;
+  font-size:2.5vw;
+}
+
+h5{
+  font-family: Noto Sans TC;
+  font-weight: bold;
+  font-size:1.5vw;
+}
+
+p{
+  font-family: Noto Sans TC;
+  font-size:2vw;
 }
