@@ -1,3 +1,49 @@
+body{
+  margin:0;
+}
+
+header{
+  margin:0;
+}
+
+h10 {
+   margin:0;
+   float: left;
+   font-family: Noto Sans TC;
+   color:rgb(123,147,191);
+   font-size:1.6vw;
+   font-weight: bold;
+   padding-left:2%;
+}
+nav {
+  margin:0;
+  float: left;
+  padding-top:1.5vh;
+  width:100%;
+  text-align: right;
+  padding-bottom:1.5%;
+  box-shadow: 0px 12px 8px -12px gray;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-right:1vh;
+  margin:0;
+}
+
+nav li {
+  list-style-type: none;
+  margin:0;
+}
+
+a{
+   margin:0;
+   font-family: Noto Sans TC;
+   color:rgb(123,147,191);
+   font-size:1.6vw;
+   text-decoration:none;
+}
+
 h1{
   left:40%;
   font-family: Noto Sans TC;
@@ -8,7 +54,8 @@ h1{
 h2{
   font-family: Noto Sans TC;
   font-weight: bold;
-  font-size:4.5vw;
+  font-size:4vw;
+  margin-bottom:0;
 }
 
 h3{
@@ -33,4 +80,27 @@ h5{
 p{
   font-family: Noto Sans TC;
   font-size:2vw;
+}
+
+footer {
+  background-color: rgb(123,147,191);
+  padding: 1vw;
+  text-align: center;
+  color: white;
+}
+
+.navFixed {
+  z-index: 10;          
+  position: fixed;   
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  min-width: 100%;
+  background-color:white;
+  transition: opacity .5s ease-out;   
+}
+
+nav a:hover {
+    background-color: rgb(123,147,191);
+    color: white;
 }
